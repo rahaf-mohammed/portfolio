@@ -79,11 +79,11 @@ margin-bottom:30px ;
 
 
 .main-btn{
-    color:grey ;
+    color:rgb(0, 0, 0) ;
     background-color: blanchedalmond;
     text-decoration: none;
     font-size: 1.1em;
-    font-weight: 600;
+    font-weight: 400;
     display:inline-block;
     padding: 0.9375em 2.1875em;
     letter-spacing: 1px;
@@ -100,12 +100,12 @@ margin-bottom:30px ;
 
 .social  {
     font-size: 1.7em;
-         text-align: center;
+         text-align:right;
 }
 
 .photo {
     width: 310px;
-    height: 450px;
+    height:550px;
     /* margin: 40px; */
 }
 .main {
@@ -190,7 +190,7 @@ margin-bottom:30px ;
 }
 .cont .cont{
     display:flex ;
-    justify-content: space-between;
+    justify-content:space-between ;
 }
 
 .cont .cont form{
@@ -207,16 +207,55 @@ margin-bottom:30px ;
 
  }
 
+ @media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+    .navigation a{
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    .secation{
+        padding:80px 20px ;
+    }
+    .main-content h2{
+        font-size:2em;
+    }
+    .main-content h3{
+        font-size:1.6em ;
+    }
+    .main
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .secondary{
+        
+    }
+ }
+@media(max-width:641){
+    .body{
+        font-size: 12px;
+    }
+    .main-content h2{
+        font-size: 0.08em;
+    }
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+    
+@meda(max-width:300px){
+    body{
+        font-size: 10px;
+    }
+}
+ 
 
- .fifth{
-    background-color: beige;
- }
- .footer{
-    color:black;
-    font: size 1.1em;;
-    font-weight:900 ;
-    text-align: center;
- }
+
+
    
 
 
